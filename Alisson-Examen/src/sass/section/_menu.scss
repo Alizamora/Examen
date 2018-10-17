@@ -1,0 +1,14 @@
+
+ul{
+    float: right;
+
+    li{
+        display: inline-block;
+        text-transform: uppercase;
+        padding-left: 27px;
+
+        a{ 
+            font-size: $normalSize;
+        }
+    }
+}
