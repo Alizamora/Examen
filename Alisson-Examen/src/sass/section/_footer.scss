@@ -1,0 +1,30 @@
+footer{
+    background-color: #3c5499;
+
+    h2{
+        margin: 0;
+    }
+
+    form{
+        margin:0;
+    }
+}
+
+.social{
+    background-color: #344b8e;
+    margin: 0 auto;
+    display: grid;
+
+    ul{
+        width: 80%;
+        li{
+            display: inline-block;
+
+           a{
+               text-decoration: none;
+               color: white;
+           }
+        }
+    }
+}
+

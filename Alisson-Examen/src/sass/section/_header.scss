@@ -7,6 +7,7 @@ header{
     h2{
         font-size: 2.635rem;
         font-weight: 300;
+        text-align: center;
     }
 
     button{
@@ -19,7 +20,8 @@ header{
         color: white;
         text-transform: uppercase;
         font-size: $mediumSize;
-        
+        display: grid;
+        margin: auto;
     }
 }
 

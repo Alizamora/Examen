@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color: yellowgreen;
     color: white;
     margin: 0;
 }
@@ -18,5 +17,11 @@ ul{
 
 .container{
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
 }

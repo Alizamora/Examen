@@ -1,0 +1,18 @@
+.content{
+    background-color: #17c2a4;
+
+    h2{
+        font-size: $mediumSize;
+        margin: 0;
+    }
+
+    p{
+        font-size: $normalSize;
+    }
+
+    .box{
+        width: 23%;
+        display: inline-block;
+        margin-right: 1%;
+    }
+}

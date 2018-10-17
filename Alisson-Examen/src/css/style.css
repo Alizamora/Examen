@@ -1,6 +1,5 @@
 body {
   font-family: 'Titillium Web', sans-serif;
-  background-color: yellowgreen;
   color: white;
   margin: 0; }
 
@@ -12,7 +11,43 @@ ul {
 
 .container {
   margin: 0 auto;
-  width: 60%; }
+  width: 80%; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.content {
+  background-color: #17c2a4; }
+  .content h2 {
+    font-size: 1.125em;
+    margin: 0; }
+  .content p {
+    font-size: 1em; }
+  .content .box {
+    width: 23%;
+    display: inline-block;
+    margin-right: 1%; }
+
+footer {
+  background-color: #3c5499; }
+  footer h2 {
+    margin: 0; }
+  footer form {
+    margin: 0; }
+
+.social {
+  background-color: #344b8e;
+  margin: 0 auto;
+  display: grid; }
+  .social ul {
+    width: 80%; }
+    .social ul li {
+      display: inline-block; }
+      .social ul li a {
+        text-decoration: none;
+        color: white; }
 
 header {
   background-color: #87509c; }
@@ -21,7 +56,8 @@ header {
     padding-bottom: 147px; }
   header h2 {
     font-size: 2.635rem;
-    font-weight: 300; }
+    font-weight: 300;
+    text-align: center; }
   header button {
     background-color: #eb7d4b;
     border: 0;
@@ -31,15 +67,17 @@ header {
     cursor: pointer;
     color: white;
     text-transform: uppercase;
-    font-size: 1.125em; }
+    font-size: 1.125em;
+    display: grid;
+    margin: auto; }
 
-ul {
+header ul {
   float: right; }
-  ul li {
+  header ul li {
     display: inline-block;
     text-transform: uppercase;
     padding-left: 27px; }
-    ul li a {
+    header ul li a {
       font-size: 1em; }
 
 /*# sourceMappingURL=style.css.map */
