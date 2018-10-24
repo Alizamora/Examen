@@ -1,0 +1,27 @@
+//General styles
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    li{
+        list-style: none;
+    }
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

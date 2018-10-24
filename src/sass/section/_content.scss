@@ -1,0 +1,30 @@
+.content{
+    background-color: #17c2a4;
+
+    h2{
+        font-size: $secondTitle;
+        text-align: center;
+        margin: 0;
+    }
+
+    p{
+        font-size: $normalSize;
+        text-align: center;
+    }
+
+    .box{
+        width: 193px;
+        display: inline-block;
+        margin-right: 1%;
+
+        img{
+            display: grid;
+            margin: 0  auto;
+        }
+
+        h4{
+            text-align: center;
+            font-size: $mediumSize
+        }
+    }
+}

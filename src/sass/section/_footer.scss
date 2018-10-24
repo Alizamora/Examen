@@ -1,0 +1,40 @@
+footer{
+    background-color: #3c5499;
+
+    h2{
+        font-size: $secondTitle;
+        text-align: center;
+        margin: 0;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    form{
+        margin:0;
+        input{
+            background-color: #273a71;
+            border: none;
+        }
+    }
+}
+
+.social{
+    background-color: #344b8e;
+    margin: 0 auto;
+    display: grid;
+
+    ul{
+        width: 80%;
+        li{
+            display: inline-block;
+
+           a{
+               text-decoration: none;
+               color: white;
+           }
+        }
+    }
+}
+
