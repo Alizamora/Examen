@@ -8,8 +8,13 @@ footer{
         margin: 0;
     }
 
+    .line{
+        @include line;
+    }
+
     p{
         text-align: center;
+        padding-bottom: 80px;
     }
 
     form{

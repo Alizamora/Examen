@@ -8,9 +8,14 @@
         margin: 0;
     }
 
+    .line{
+        @include line;
+    }
+
     p{
         font-size: $normalSize;
         text-align: center;
+        padding-bottom: 80px;
     }
 
     .box-content{

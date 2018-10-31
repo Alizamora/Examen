@@ -25,9 +25,14 @@ ul {
     font-size: 2.5em;
     text-align: center;
     margin: 0; }
+  .content .line {
+    width: 90px;
+    border: 2px solid black;
+    opacity: 0.15; }
   .content p {
     font-size: 1em;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 80px; }
   .content .box-content {
     margin: 0 auto; }
     .content .box-content .box {
@@ -49,8 +54,13 @@ footer {
     font-size: 2.5em;
     text-align: center;
     margin: 0; }
+  footer .line {
+    width: 90px;
+    border: 2px solid black;
+    opacity: 0.15; }
   footer p {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 80px; }
   footer form {
     margin: 0; }
     footer form input {

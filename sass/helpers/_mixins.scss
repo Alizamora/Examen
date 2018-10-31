@@ -10,3 +10,9 @@
     border: 0;
     padding: 27px 0;
 }
+
+@mixin line {
+    width: 90px;
+    border: 2px solid black;
+    opacity: 0.15;
+}
