@@ -17,13 +17,27 @@ footer{
         padding-bottom: 80px;
     }
 
-    form{
-        margin:0;
-        input{
-            background-color: #273a71;
-            border: none;
+    .form{
+            max-width: 860px;
+            margin:0 auto;
+
+        form{
+            margin:0 auto;
+
+            .first{
+
+            }
+
+            .second{
+
+            }
+            input{
+                background-color: #273a71;
+                border: none;
+            }
         }
     }
+
 }
 
 .social{

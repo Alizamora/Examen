@@ -61,11 +61,14 @@ footer {
   footer p {
     text-align: center;
     padding-bottom: 80px; }
-  footer form {
-    margin: 0; }
-    footer form input {
-      background-color: #273a71;
-      border: none; }
+  footer .form {
+    max-width: 860px;
+    margin: 0 auto; }
+    footer .form form {
+      margin: 0 auto; }
+      footer .form form input {
+        background-color: #273a71;
+        border: none; }
 
 .social {
   background-color: #344b8e;
