@@ -11,17 +11,10 @@ header{
     }
 
     button{
+        @include button;
         background-color: #eb7d4b;
-        border: 0;
         border-bottom: 4px solid #c86a40;
-        width:30%;
-        height: 5%;
-        cursor: pointer;
-        color: white;
-        text-transform: uppercase;
-        font-size: $mediumSize;
-        display: grid;
-        margin: auto;
+
     }
 }
 

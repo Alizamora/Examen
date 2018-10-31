@@ -1,0 +1,17 @@
+@mixin button {
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: $mediumSize;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+}
+
+// Mixin of line
+@mixin line {
+    width: 25%;
+}
