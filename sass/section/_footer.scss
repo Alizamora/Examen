@@ -1,5 +1,6 @@
 footer{
     background-color: #3c5499;
+    padding: $space 0;
 
     h2{
         font-size: $secondTitle;
@@ -26,7 +27,6 @@ footer{
     display: grid;
 
     ul{
-        width: 80%;
         li{
             display: inline-block;
 

@@ -1,27 +1,23 @@
 header{
     background-color: #87509c;
+    
     .headConteiner{
         padding-top: 57px;
         padding-bottom: 147px;
     }
     h2{
-        font-size: 2.635rem;
+        padding-top: 140px;
+        padding-bottom: 60px;
+        font-size: $secondTitle;
         font-weight: 300;
         text-align: center;
     }
 
     button{
+        @include button;
         background-color: #eb7d4b;
-        border: 0;
         border-bottom: 4px solid #c86a40;
-        width:30%;
-        height: 5%;
-        cursor: pointer;
-        color: white;
-        text-transform: uppercase;
-        font-size: $mediumSize;
-        display: grid;
-        margin: auto;
+
     }
 }
 
