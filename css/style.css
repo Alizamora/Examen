@@ -52,7 +52,6 @@ ul li {
 .content .box-content .box img {
   display: block;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 .content .box-content .box h4 {
   text-align: center;
@@ -248,16 +247,16 @@ header ul li a {
     height: 0%;
     width: 4px;
     position: absolute;
-    top: 10%;
-    left: 48px;
+    top: 1vh;
+    left: 38px;
     transition-delay: 0s;
   }
   header #menu-toggle #cross span:nth-child(2) {
     width: 0%;
     height: 4px;
     position: absolute;
-    left: 10%;
-    top: 48px;
+    left: 9%;
+    top: 38px;
     transition-delay: 0.25s;
   }
   header #menu-toggle.open #hamburger span {
@@ -310,7 +309,7 @@ header ul li a {
     display: inline-block;
   }
   .content .box-content .box + .box {
-    margin-left: 5%;
+    margin-left: 0%;
   }
 
   .social {
