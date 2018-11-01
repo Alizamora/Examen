@@ -197,8 +197,10 @@ header ul li a {
 }
 
 @media (max-width: 1124px) {
+  /* Header*/
   header {
     padding: 0 10%;
+    /* Menu - Modal*/
   }
   header span {
     transition: 0.2s;
@@ -248,7 +250,7 @@ header ul li a {
     width: 4px;
     position: absolute;
     top: 1vh;
-    left: 38px;
+    left: 37px;
     transition-delay: 0s;
   }
   header #menu-toggle #cross span:nth-child(2) {
@@ -301,20 +303,23 @@ header ul li a {
     margin-top: 15vh;
   }
 
+  /* End header */
+  /*  Content  */
   .content {
     padding: 0 10%;
   }
   .content .box-content .box {
-    width: 100%;
+    width: 50%;
     display: inline-block;
   }
-  .content .box-content .box + .box {
-    margin-left: 0%;
-  }
 
+  /* End Content*/
+  /* Footer*/
   .social {
     display: none;
   }
+
+  /* End footer*/
 }
 
 /*# sourceMappingURL=style.css.map */

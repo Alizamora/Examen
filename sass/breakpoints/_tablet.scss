@@ -1,5 +1,6 @@
 @media (max-width: 1124px ){
 
+    /* Header*/
     header{
         padding: 0 10%;
         // hamburger
@@ -50,7 +51,7 @@
                   width:4px;
                   position:absolute;
                   top: 1vh;
-                  left:38px;
+                  left:37px;
                   transition-delay:0s;
                 }
                 &:nth-child(2){
@@ -65,7 +66,6 @@
             }
           }
           
-
           #menu-toggle.open {
             #hamburger {
               span {
@@ -97,7 +97,8 @@
             }
           }
         // End hamburger
-
+        
+        /* Menu - Modal*/
         ul{
             transition: 0.2s;
             background: rgb(82, 5, 105);
@@ -118,26 +119,31 @@
                 display: block;
                 text-align: center;
             }
-        }
-    }
+        } //End menu - modal
 
+    }
+    /* End header */
+
+    /*  Content  */
     .content{
         padding: 0 10%;
         
         .box-content{
 
           .box{
-              width: 100%;
+              width: 50%;
               display: inline-block;
-          }
-          .box + .box{
-              margin-left: 0%;
+              
           }
       }
     }
+    /* End Content*/
 
 
+    /* Footer*/
     .social {
         display: none;
     }
+    /* End footer*/
 }
+    
