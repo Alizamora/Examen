@@ -19,23 +19,57 @@ footer{
 
     .form{
             max-width: 860px;
+            width: 90%;
             margin:0 auto;
+
+            .button{
+                @include button;
+                background-color: #30bae7;
+                border-bottom: 4px solid #299ec5;
+            }
 
         form{
-            margin:0 auto;
+            span{
+                    margin: 15% 0;
+                &::after{
+                    content: " *";
+                    color: red;
+                }
+            }
 
             .first{
+                margin-bottom: 25px;
+
+                label{
+                    width: 48%;
+                    float: left;
+                    &:first-child{
+                        margin-right: 4%;
+                    }
+                    input{
+                        padding: 4% 0;
+                        display: block;
+                        width: 100%;
+                    }
+                }
 
             }
 
             .second{
 
+                textarea{
+                    background-color: #273a71;
+                    width: 100%;
+                    border: 0;
+                    padding-bottom: 60px;
+                }
             }
             input{
                 background-color: #273a71;
                 border: none;
             }
         }
+
     }
 
 }
@@ -52,8 +86,11 @@ footer{
            a{
                text-decoration: none;
                color: white;
-           }
+               margin-right: 60px;
+               &:hover{
+                color: #30bae7;
+                }   
+            }
         }
     }
 }
-
