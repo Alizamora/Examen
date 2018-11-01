@@ -308,9 +308,19 @@ header ul li a {
   .content {
     padding: 0 10%;
   }
+  .content .box-content {
+    margin: 0 auto;
+  }
+  .content .box-content:first-child {
+    margin-left: 4%;
+  }
   .content .box-content .box {
-    width: 50%;
+    width: 45%;
     display: inline-block;
+    margin-left: 0;
+  }
+  .content .box-content .box + .box {
+    margin-left: 4%;
   }
 
   /* End Content*/

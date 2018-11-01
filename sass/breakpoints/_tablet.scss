@@ -130,11 +130,20 @@
         
         .box-content{
 
-          .box{
-              width: 50%;
-              display: inline-block;
-              
+          margin: 0 auto;
+          &:first-child{
+            margin-left: 4%;
           }
+
+          .box{
+              width: 45%;
+              display: inline-block;
+              margin-left: 0;
+          }
+          .box + .box {
+            margin-left: 4%;
+          }
+
       }
     }
     /* End Content*/
