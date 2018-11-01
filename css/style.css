@@ -99,7 +99,8 @@ footer .form .button {
   border-bottom: 4px solid #299ec5;
 }
 footer .form form span {
-  margin: 15% 0;
+  margin: 2% 0;
+  display: inline-block;
 }
 footer .form form span::after {
   content: " *";
@@ -124,7 +125,7 @@ footer .form form .second textarea {
   background-color: #273a71;
   width: 100%;
   border: 0;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 footer .form form input {
   background-color: #273a71;

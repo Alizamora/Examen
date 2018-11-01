@@ -30,7 +30,8 @@ footer{
 
         form{
             span{
-                    margin: 15% 0;
+                    margin: 2% 0;
+                    display: inline-block;
                 &::after{
                     content: " *";
                     color: red;
@@ -61,7 +62,8 @@ footer{
                     background-color: #273a71;
                     width: 100%;
                     border: 0;
-                    padding-bottom: 60px;
+                    margin-bottom: 60px;
+
                 }
             }
             input{
