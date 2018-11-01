@@ -52,6 +52,7 @@ ul li {
 .content .box-content .box img {
   display: block;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 .content .box-content .box h4 {
   text-align: center;
@@ -182,6 +183,7 @@ header ul {
   float: right;
 }
 header ul li {
+  transition: 0.2s;
   display: inline-block;
   text-transform: uppercase;
   padding: 0 20px;
@@ -193,6 +195,127 @@ header ul li:hover {
 header ul li a {
   font-size: 1em;
   text-align: center;
+}
+
+@media (max-width: 1124px) {
+  header {
+    padding: 0 10%;
+  }
+  header span {
+    transition: 0.2s;
+    display: block;
+    background: #fff;
+    border-radius: 2px;
+  }
+  header #menu-toggle {
+    width: 80px;
+    height: 80px;
+    top: 5vh;
+    right: 5vh;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  header #menu-toggle #hamburger {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  header #menu-toggle #hamburger span {
+    width: 40px;
+    height: 4px;
+    position: relative;
+    top: 14px;
+    left: 20px;
+    margin: 10px 0;
+  }
+  header #menu-toggle #hamburger span:nth-child(1) {
+    transition-delay: 0.5s;
+  }
+  header #menu-toggle #hamburger span:nth-child(2) {
+    transition-delay: 0.625s;
+  }
+  header #menu-toggle #hamburger span:nth-child(3) {
+    transition-delay: 0.75s;
+  }
+  header #menu-toggle #cross {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: rotate(45deg);
+  }
+  header #menu-toggle #cross span:nth-child(1) {
+    height: 0%;
+    width: 4px;
+    position: absolute;
+    top: 10%;
+    left: 48px;
+    transition-delay: 0s;
+  }
+  header #menu-toggle #cross span:nth-child(2) {
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    left: 10%;
+    top: 48px;
+    transition-delay: 0.25s;
+  }
+  header #menu-toggle.open #hamburger span {
+    width: 0%;
+  }
+  header #menu-toggle.open #hamburger span:nth-child(1) {
+    transition-delay: 0s;
+  }
+  header #menu-toggle.open #hamburger span:nth-child(2) {
+    transition-delay: 0.125s;
+  }
+  header #menu-toggle.open #hamburger span:nth-child(3) {
+    transition-delay: 0.25s;
+  }
+  header #menu-toggle.open #cross span:nth-child(1) {
+    height: 80%;
+    transition-delay: 0.625s;
+  }
+  header #menu-toggle.open #cross span:nth-child(2) {
+    width: 80%;
+    transition-delay: 0.375s;
+  }
+  header ul {
+    transition: 0.2s;
+    background: #520569;
+    margin-top: 0vh;
+    padding: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0vw;
+    left: 100%;
+  }
+  header ul li {
+    padding: 3vh 0;
+    margin-top: 5vw;
+    display: block;
+    text-align: center;
+  }
+  header ul li:first-child {
+    margin-top: 15vh;
+  }
+
+  .content {
+    padding: 0 10%;
+  }
+  .content .box-content .box {
+    width: 100%;
+    display: inline-block;
+  }
+  .content .box-content .box + .box {
+    margin-left: 5%;
+  }
+
+  .social {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
