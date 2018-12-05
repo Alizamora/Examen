@@ -1,98 +1,22 @@
 footer{
-    background-color: #3c5499;
-    padding: $space 0;
-
-    h2{
-        font-size: $secondTitle;
-        text-align: center;
-        margin: 0;
-    }
-
-    .line{
-        @include line;
-    }
-
-    p{
-        text-align: center;
-        padding-bottom: 80px;
-    }
-
-    .form{
-            max-width: 860px;
-            width: 90%;
-            margin:0 auto;
-
-            .button{
-                @include button;
-                background-color: #30bae7;
-                border-bottom: 4px solid #299ec5;
-            }
-
-        form{
-            span{
-                    margin: 2% 0;
-                    display: inline-block;
-                &::after{
-                    content: " *";
-                    color: red;
-                }
-            }
-
-            .first{
-                margin-bottom: 25px;
-
-                label{
-                    width: 48%;
-                    float: left;
-                    &:first-child{
-                        margin-right: 4%;
-                    }
-                    input{
-                        padding: 4% 0;
-                        display: block;
-                        width: 100%;
-                    }
-                }
-
-            }
-
-            .second{
-
-                textarea{
-                    background-color: #273a71;
-                    width: 100%;
-                    border: 0;
-                    margin-bottom: 60px;
-
-                }
-            }
-            input{
-                background-color: #273a71;
-                border: none;
-            }
-        }
-
-    }
-
-}
-
-.social{
-    background-color: #344b8e;
-    margin: 0 auto;
-    display: grid;
+    background-color: #f2fbfb;
 
     ul{
-        li{
-            display: inline-block;
 
-           a{
-               text-decoration: none;
-               color: white;
-               margin-right: 60px;
-               &:hover{
-                color: #30bae7;
-                }   
+        li{
+            
+            transition: 0.2s;
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 0 20px;
+            &:hover{
+                cursor: pointer;
+            }
+
+            a{ 
+                //font-size:
+                text-align: center;
             }
         }
     }
-}
+}   

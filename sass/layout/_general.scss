@@ -2,7 +2,6 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    color: white;
     margin: 0;
 }
 
@@ -15,10 +14,11 @@ ul{
 
 }
 
-.container{
+#container{
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1200px;
 }
+
 
 .clearfix::after{
     content: '';

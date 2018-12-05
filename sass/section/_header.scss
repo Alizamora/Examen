@@ -1,23 +1,8 @@
 header{
-    background-color: #87509c;
+    margin-top: 100px;
     
-    .headConteiner{
-        padding-top: 57px;
-        padding-bottom: 147px;
-    }
-    h2{
-        padding-top: 140px;
-        padding-bottom: 60px;
-        font-size: $secondTitle;
-        font-weight: 300;
-        text-align: center;
+    .logo{
+        width:95px;
     }
 
-    button{
-        @include button;
-        background-color: #eb7d4b;
-        border-bottom: 4px solid #c86a40;
-
-    }
 }
-
